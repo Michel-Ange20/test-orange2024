@@ -12,7 +12,7 @@ include('header.php'); ?>
 <div class="container" style="margin-top:50px">
   <div class="row">
     <div class="col-lg-12">
-    <form class="needs-validation" novalidate method="GET" action="add">
+    <form class="needs-validation" novalidate method="GET" action="update">
   <div class="form-row">
     <div class="col-md-4 mb-3">
       <label for="validationTooltip01">Title</label>
