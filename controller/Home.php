@@ -53,12 +53,17 @@ class Home
                 $alert = "alert-success";
                 $response = "L'enregistrement a réussi avec succès";                
                 
+                $manager = new ArticleManager();
+                $articles = $manager->read();
             }
             else {
                 $alert = "alert-warning";
                 $response = " L'enregistrement a échoué";                
             }
         }
+
+        include(VIEW.'update.php');
+
 
     }
 
