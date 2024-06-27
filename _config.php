@@ -13,9 +13,9 @@
         $host = $_SERVER['HTTP_HOST'];
 
 
-        define('HOST', 'http://'.$host.'/test_orange/');
+        define('HOST', 'http://'.$host.'/test_orange2024/');
         /** ==================================================================== */
-        define('ROOT', $root.'/test_orange/');
+        define('ROOT', $root.'/test_orange2024/');
 
         define('CONTROLLER', ROOT.'controller/');
         define('MODEL', ROOT.'model/');
